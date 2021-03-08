@@ -1,18 +1,65 @@
 # DP-201 Study Topics
 
-## Design Azure Data Storage Solutions
+## Design Azure Data Storage Solutions / Design for Data Security and Compliance
 
-* Cosmos DB
-    * APIs
-    * Partitioning strategy
 * Storage
     * Services
     * Tiers
     * Data Lake Gen 2
+    *
+* Azure storage auth
+    * Redundancy options
+    * Data Lake ACLs
+    * SAS tokens
+    * Public container access
+    * Lifecycle management policies
+
+* Cosmos DB
+    * APIs
+    * Partitioning strategy
+
+* Azure SQL
+    * Azure AD contained db users
+    * Always Encrypted (deterministic vs randomized)
+    * TDE
+    * Data masking
+    * Failover groups
+    * LTR policy
+
 * Synapse
     * Partitioning
     * Distribution
+    * Geo-redundant backups
 
+* Networking
+    * Private endpoints
+    * Service endpoints
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Azure AD
+    * Conditional access
+    * RBAC
+    * Managed identity
+
+
+* Databricks
+    * PAT auth
+* Synapse
+    * Geo-redundant backup
 
 ## Design Data Processing Solutions
 
@@ -41,29 +88,3 @@
 
 
 
-## Design for Data Security and Compliance
-
-* Azure storage auth
-    * Redundancy options
-    * Data Lake ACLs
-    * SAS tokens
-    * Public container access
-    * Lifecycle management policies
-* Azure AD
-    * Conditional access
-    * RBAC
-    * Managed identity
-* Networking
-    * Private endpoints
-    * Service endpoints
-* Azure SQL
-    * Azure AD contained db users
-    * Always Encrypted (deterministic vs randomized)
-    * TDE
-    * Data masking
-    * Failover groups
-    * LTR policy
-* Databricks
-    * PAT auth
-* Synapse
-    * Geo-redundant backup
