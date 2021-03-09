@@ -47,6 +47,24 @@
 
 ### Sweep up the shavings
 
+* Cosmos container-level security (RBAC)
+* Storage service / private endpoints
+
+#### Synapse
+
+    * Distribution modes
+    * ELT data load
+
+#### Stream Analytics
+
+    * Telco into ADLS  //windowing
+    * Telco into Cosmos DB
+
+#### ADF
+
+    * Copy emp.txt into Azure SQL DB
+
+
 * Cosmos consistency levels take 2
 * Synapse SQL Pool distribution modes (SLIDES)
 
